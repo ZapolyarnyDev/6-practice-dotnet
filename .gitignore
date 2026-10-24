@@ -1,0 +1,35 @@
+# сборка
+[Bb]in/
+[Oo]bj/
+artifacts/
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.sqlite3-journal
+
+# файлы юзеров
+storage/
+
+# локальное
+.env
+.env.*
+!.env.example
+!.env.sample
+secrets.json
+
+# IDE и macOS
+.vs/
+.idea/
+*.user
+*.suo
+.DS_Store
